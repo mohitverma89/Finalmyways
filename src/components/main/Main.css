@@ -1,0 +1,39 @@
+div{
+    font-family: 'Open Sans';
+}
+.applyline{
+    margin-top: 211px;
+    margin-left: 420px;
+    margin-bottom: 20px;
+    width: 648px;
+    height: 56px;
+    text-align: center;
+    font: normal normal bold 41px/56px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.Exploreline{
+    margin-top: 20px;
+    margin-left: 270px;
+width: 1008px;
+height: 76px;
+text-align: center;
+font: normal normal normal 28px/38px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 0.8;
+margin-bottom: 20px;
+
+}
+.getstart{
+    width: 1366px;
+height: 768px;
+    text-align: center;
+font: normal normal bold 24px/33px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+margin-top: 50px;
+opacity: 1;
+}

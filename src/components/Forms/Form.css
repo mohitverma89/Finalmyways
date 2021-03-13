@@ -1,0 +1,179 @@
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  top:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index:+1;
+  position: fixed;
+ 
+}
+
+.form-wrapper {
+  width: 676px;
+  height: 577px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+border-radius: 15px;
+opacity: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.close {
+  margin-right: -590px;
+  margin-top:10px;
+  margin-left: 630px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.arroww{
+  text-decoration: none;
+}
+.close:hover,
+.close:focus {
+
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  width: 100%; 
+  color: #111;
+  font-weight: 600;
+  font: normal normal 600 33px/44px Segoe UI;
+}
+h2{
+  text-align: center;
+  width: 186px;
+height: 30px;
+margin-left: 240px;
+font: normal normal normal 22px/30px Open Sans;
+letter-spacing: 0px;
+color: #212020;
+margin-top: -10px;
+opacity: 1; 
+margin-bottom: 40px;
+}
+
+#innnput {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 0.57;
+  
+}
+
+#innnput::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+  font-family: "Segoe UI";
+}
+
+#innnput.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.firstName {
+  margin-left:242px;
+  width: 162px;
+height: 48px;
+margin-top:10px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+}
+
+.lastName {
+  margin-left: 170px;
+  width: 162px;
+height: 48px;
+margin-top:10px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px;
+}
+
+.firstName,
+.lastName,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI";
+}
+
+.firstName,
+.lastName {
+  width: 15px;
+height: 48px;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.email{
+width: 364px;
+height: 48px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+outline: 0;
+margin-bottom: -5px;
+margin-top:2px;
+margin-left: 160px;
+}
+.password {
+  margin-left: 160px;
+  outline: 0;
+  width: 364px;
+  height: 48px;
+  margin-top: 8px;
+  margin-bottom: -20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.SignUp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.SignUp button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-top: 25px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: "Segoe UI";
+  margin-bottom: 128px;
+  margin-left:8px;
+  width: 364px;
+height: 48px;
+background: #7ECB20 0% 0% no-repeat padding-box;
+opacity: 1;
+}
