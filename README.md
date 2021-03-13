@@ -1,4 +1,4 @@
-# The project is Deployed at https://romantic-elion-409064.netlify.app/
+# The Project is deployed at https://romantic-elion-409064.netlify.app/
 # Getting Started with Create React App
 
 
