@@ -70,22 +70,6 @@ const Main = (props)=> {
     >
     <Form show={show} close={closeModalHandler}/>
     </Modal>
-    {/*props.logindata&&<LoginForm/>
-  {/*
-    <RegisterButton href="#" className="getstart" onClick={props.signuphandler}>Get Started</RegisterButton>
-    {(props.signupdata)&& <Form/>}
-    
-    <Form handleClose={modalIsOpen}/>
-    </Modal>
-
-    props.logindata&&<LoginForm/>
-   {/*} <h1 className="applyline">Apply and hear back every time</h1>
-    <p className="Exploreline">Exploring internships or jobs? Say good-bye to the typical job portals and use the
-    power of Artificial Intelligence to become successful, faster. </p>
-  
-    <RegisterButton href="#" className="getstart" onClick={props.signuphandler}>Get Started</RegisterButton>
-    {(props.signupdata)&& <Form/>}
-    {/*props.logindata&&<LoginForm/>*/}
     
     </div>
   );
