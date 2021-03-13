@@ -34,7 +34,7 @@ const RightSection = styled.div`
 
 export const Navbar=(props)=> {
   const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
- console.log('this ')
+ 
   return (
     <div>
     <NavbarContainer>
