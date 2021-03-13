@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-
+import Accessibility from "./Accessibility";
 import { MenuToggle } from "./menuToggle";
 
 const NavLinksContainer = styled.div`
@@ -19,11 +19,13 @@ const LinksWrapper = styled.ul`
   flex-direction: column;
   position: fixed;
   margin-left: 0;
+  margin-top: 3.1%;
+  margin-right:0%;
 `;
 
 const LinkItem = styled.li`
   margin-top: 12px;
-  margin-left: 515px;
+  margin-left: -5%;
   width: 110px;
   height: 22px;
 font: normal normal normal 16px/22px Open Sans;
@@ -51,19 +53,19 @@ export function MobileNavLinks(props) {
       {isOpen && (
         <LinksWrapper>
           <LinkItem>
-            <Link href="#">About us</Link>
+            <Link href="#">For you</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">How it works</Link>
+            <Link href="#">Instant Apply</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Explore</Link>
+            <Link href="#">Pricing</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Impact</Link>
+            <Link href="#">About Us</Link>
           </LinkItem>
           <Marginer />
-          {/*<Accessibility />*/}
+          <Accessibility />
         </LinksWrapper>
       )}
     </NavLinksContainer>
